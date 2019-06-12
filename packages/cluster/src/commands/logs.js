@@ -53,5 +53,10 @@ module.exports = {
     command: 'logs <name> [service]',
     desc: 'Tail the logs from a given service',
     aliases: 'r',
+    builder: yargs =>
+        yargs.positional('name', {
+            choices: ['dev'],
+            type: 'string',
+        }),
     handler: run,
 }
