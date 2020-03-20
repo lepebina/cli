@@ -42,3 +42,5 @@ Anything following the action verb is either a positional argument or a flag (if
 
 -   `d2 style js apply --all --no-stage` tells the `apply` action to run on all files and not to stage the changes in git
 -   `d2 cluster restart dev gateway` passes the arguments `dev` and `gateway` to the `restart` action, which tells the action which service to restart.
+
+==something silly===
